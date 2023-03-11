@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 14px;
+    background-color: hsla(213, 16%, 11%, 0.74);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.select-rating-container, .thank-you-container{
+background-color: hsl(217, 24%, 35%);
+padding: 1.5rem;
+border-radius: 0.625rem;
+}
+
+
+.select-rating-container img {
+    background-color: rgb(10, 10, 43);
+    padding: 0.5rem;
+    border-radius: 50%;
+}
+.select-rating-container .selector {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.select-rating-container h2,  .thank-you-container h2 {
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+.select-rating-container p, .thank-you-container p {
+    color:hsl(0, 0%, 71%);
+    margin-bottom: 1rem;
+}
+
+.select-rating-container ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: .2rem;
+}
+
+.select-rating-container ul li button {
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    background-color: hsla(213, 16%, 11%, 0.74);
+    color: #fff;
+    padding: 0.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.select-rating-container ul li button:hover{
+    background-color: orange;
+}
+
+.select-rating-container ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+    font-size: 1rem;
+    background-color: hsl(25, 90%, 53%);
+    color: #fff;
+    width: 100%;
+    padding: 0.5rem 0 0.4rem;
+    border: none;
+    border-radius: 30px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
